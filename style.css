@@ -91,9 +91,6 @@ html,body{
     background-color: var(--black);
 
 }
-#sidebarDisplay:checked ~ #sidebarMenu{
-    transform: translateX(0);
-}
 .sidebar-heading{
     padding: 1rem;
 }
