@@ -1,0 +1,39 @@
+.alert-intro {
+    font-size: 1.25rem;
+    padding: 1rem 0 1rem 0;
+}
+.ranger-alert{
+    padding: 1rem;
+    width: 20rem;
+    margin-bottom: 10px;
+}
+.fa-check-circle, .fa-info-circle, .fa-times-circle{
+margin-right: 3px;
+}
+.ranger-alert-success{
+background-color: var(--alert-green);
+}
+.ranger-alert-informational-notes{
+background-color: var(--alert-blue);
+}
+.ranger-alert-warning{
+background-color: var(--alert-yellow);
+}
+.ranger-alert-error{
+background-color: var(--alert-red);
+}
+
+.alert-iframe {
+    width: 600px; 
+    height: 500px;
+}
+
+@media only screen and (max-width: 700px) {
+    .alert-iframe{
+        width: 300px;
+        height: 200px;
+    }
+    .ranger-alert{
+        width:15rem;
+    }
+}
