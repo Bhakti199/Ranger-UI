@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    --black: #292524;
+    --greyOne: #44403c;
+    --greyTwo:#57534e;
+    --teal:#2dd4bf;
+    --off-white:#fafaf9;
+    --alert-green:#d9f99d;
+    --alert-blue: #bfdbfe;
+    --alert-yellow:#fde68a;
+    --alert-red: #fecaca;
+    --dark-teal: #0d9488;
+} 
+
+.navbar{
+    display: flex;
+    height: 4rem;
+    background-color: var(--black);
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+}
+.navbar-heading{
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.navbar-social-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 0.5rem;
+}
+.navbar-btn{
+    font-size: 20px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    /* padding: ; */
+    border-radius: 4px;
+}
+.navbar-btn:hover{
+    background-color: var(--greyOne);
+}
+.navbar-btn-item{
+    color: var(--teal);
+}
+.ranger-ui {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 600;
+    color: var(--teal);
+}
+.ranger-ui-name {
+    text-decoration: none;
+    font-size: 2.25rem;
+    color: var(--teal);
+}
+.ranger-ui-name:hover{
+    color: var(--dark-teal);
+}
+
+/**** Sidebar ****/
+.sidebarIconToggle{
+    position: fixed;
+    top: 20px;
+    left: 100px;
+}
+.fa-bars{
+    font-size: 30px;
+    color: var(--teal);
+    
+}
+.sidebar {
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    bottom: 0;
+    list-style: none;
+    width: 15.5rem;
+    height: 100%;
+    border-right:1px solid var(--black) ;
+    padding: 0;
+    margin: 0;
+    background-color: var(--black);
+
+}
+#sidebarDisplay:checked ~ #sidebarMenu{
+    transform: translateX(0);
+}
+.sidebar-heading{
+    padding: 1rem;
+}
+.sidebar-items{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: var(--teal);
+}
+.sidebar-list-items{
+    padding: 20px;
+}
+
+.sidebar-list-items:hover{
+    background-color: var(--greyOne);
+}
+
+.main-content {
+    margin-top:4rem ;
+    margin-left: 15.5rem;
+}
