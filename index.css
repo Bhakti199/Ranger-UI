@@ -1,0 +1,40 @@
+.landing-page {
+  height: 100vh;
+  width: 45rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+.ranger-ui {
+  font-family: "Great Vibes", cursive;
+  font-weight: 600;
+  color: var(--teal);
+}
+.ranger-ui-name {
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3rem;
+  color: var(--teal);
+  font-weight: 900;
+}
+.landing-page-content {
+  font-size: 1.25rem;
+  line-height: normal;
+}
+.landing-page-btn {
+  border: none;
+  background-color: var(--black);
+  color: var(--teal2);
+  padding: 0.9rem 1.87rem;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.landing-page-btn:hover {
+  background-color: var(--greyOne);
+  transform: scale(1.1);
+}
