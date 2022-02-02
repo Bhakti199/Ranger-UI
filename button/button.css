@@ -1,0 +1,191 @@
+.button-intro {
+  font-size: 1.25rem;
+  padding: 1rem 0 1rem 0;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: 16rem;
+  margin-bottom: 1rem;
+}
+
+/* solid buttons */
+
+.ranger-primary-button-sm,
+.ranger-primary-button-md,
+.ranger-primary-button-lg,
+.ranger-btn-with-icon-button-sm,
+.ranger-btn-with-icon-button-md,
+.ranger-btn-with-icon-button-lg {
+  border: none;
+  color: var(--white1);
+  border: none;
+  font-size: 1.25rem;
+}
+
+.ranger-primary-button-sm {
+  background-color: var(--blue2);
+  width: 8rem;
+  padding: 1rem 2rem;
+}
+.ranger-btn-with-icon-button-sm {
+  background-color: var(--blue2);
+  width: 10rem;
+  padding: 1rem;
+}
+.ranger-primary-button-md,
+.ranger-btn-with-icon-button-md {
+  background-color: var(--yellow2);
+  width: 12rem;
+  padding: 1rem 2rem;
+}
+
+.ranger-primary-button-lg,
+.ranger-btn-with-icon-button-lg {
+  background-color: var(--orange2);
+  width: 16rem;
+  padding: 1.5rem 2rem;
+}
+
+.ranger-primary-button-sm:hover,
+.ranger-primary-button-md:hover,
+.ranger-primary-button-lg:hover,
+.ranger-btn-with-icon-button-sm:hover,
+.ranger-btn-with-icon-button-md:hover,
+.ranger-btn-with-icon-button-lg:hover {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 25%);
+}
+
+/* Outlined buttons */
+.range-secondary-button-sm,
+.range-secondary-button-md,
+.range-secondary-button-lg {
+  border: 2px solid;
+  background-color: transparent;
+  font-size: 1.25rem;
+}
+.range-secondary-button-sm {
+  border-color: var(--greyFour);
+  color: var(--black);
+  width: 8rem;
+  padding: 1rem 2rem 1rem 2rem;
+  transition: 0.3s;
+}
+.range-secondary-button-sm:hover {
+  border-color: var(--red1);
+  background-color: var(--red1);
+  color: var(--white1);
+}
+
+.range-secondary-button-md {
+  border-color: var(--yellow2);
+  color: var(--black);
+  width: 12rem;
+  padding: 1rem 2rem;
+  transition: 0.3s;
+}
+.range-secondary-button-md:hover {
+  background-color: var(--yellow2);
+  color: var(--white1);
+}
+
+.range-secondary-button-lg {
+  border-color: var(--orange2);
+  color: var(--black);
+  width: 16rem;
+  padding: 1.5rem 2rem;
+}
+.range-secondary-button-lg:hover {
+  background-color: var(--orange2);
+  color: var(--white1);
+}
+
+/* iframes */
+.button-iframes {
+  width: 37rem;
+  height: 10rem;
+  margin-bottom: 1rem;
+}
+.button-iframes-icon-button {
+  width: 37rem;
+  height: 12rem;
+  margin-bottom: 1rem;
+}
+.button-iframes-button-with-icon {
+  width: 37rem;
+  height: 20rem;
+  margin-bottom: 1rem;
+}
+.floating-button-iframe {
+  width: 37rem;
+  height: 7rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .button-iframes,
+  .button-iframes-icon-button,
+  .button-iframes-button-with-icon,
+  .floating-button-iframe {
+    width: 27rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .button-iframes,
+  .button-iframes-icon-button,
+  .button-iframes-button-with-icon,
+  .floating-button-iframe {
+    width: 24rem;
+  }
+}
+/* icon buttons */
+.icon-button-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 6rem;
+}
+
+.icon-button {
+  height: 3rem;
+  width: 3rem;
+  background-color: var(--black);
+  border: none;
+}
+.fa-arrow-left,
+.fa-arrow-right {
+  font-size: 1rem;
+  color: var(--white1);
+}
+.fa-times-circle,
+.fa-shopping-cart,
+.fa-bolt {
+  padding-right: 5px;
+}
+/* link button */
+.link-button-container {
+  height: 3rem;
+}
+.ranger-link-button {
+  width: 7rem;
+  height: 3rem;
+  background-color: transparent;
+  border: none;
+}
+.ranger-link-button-link {
+  font-size: 1.25rem;
+  color: var(--orange2);
+}
+.ranger-floating-action-button {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--teal2);
+  border: none;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.45));
+}
+
+.fa-chevron-up {
+  color: var(--black);
+}
