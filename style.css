@@ -1,34 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-@import url(button/button.css);
+
+:root {
+  --dark-black: #292524;
+  --darkest-grey: #44403c;
+  --darker-grey: #57534e;
+  --light-grey: #e2e8f0;
+  --darker-teal: #115e59;
+  --dark-teal: #2dd4bf;
+  --light-teal: #f0fdfa;
+  --medium-red: #dc2626;
+  --off-white: #fafaf9;
+  --medium-yellow: #fbbf24;
+  --medium-orange: #fb923c;
+  --medium-blue: #60a5fa;
+}
 
 html,
 body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  --black: #292524;
-  --greyOne: #44403c;
-  --greyTwo: #57534e;
-  --greyFour: #e2e8f0;
-  --teal1: #115e59;
-  --teal2: #2dd4bf;
-  --teal3: #f0fdfa;
-  --red1: #dc2626;
-  --alert-green: #d9f99d;
-  --alert-blue: #bfdbfe;
-  --alert-yellow: #fde68a;
-  --alert-red: #fecaca;
-  --white1: #fafaf9;
-  --yellow2: #fbbf24;
-  --orange2: #fb923c;
-  --blue2: #60a5fa;
 }
 /******** navbar   ********/
 .navbar {
   display: flex;
   height: 4rem;
-  background-color: var(--black);
+  background-color: var(--dark-black);
   position: fixed;
   top: 0;
   right: 0;
@@ -54,23 +52,23 @@ body {
   border-radius: 4px;
 }
 .navbar-btn:hover {
-  background-color: var(--greyOne);
+  background-color: var(--darkest-grey);
 }
-.navbar-btn-item {
-  color: var(--teal2);
+.navbar-btn-link {
+  color: var(--dark-teal);
 }
 .ranger-ui {
   font-family: "Great Vibes", cursive;
   font-weight: 600;
-  color: var(--teal2);
+  color: var(--dark-teal);
 }
 .ranger-ui-name {
   text-decoration: none;
   font-size: 2.25rem;
-  color: var(--teal2);
+  color: var(--dark-teal);
 }
 .ranger-ui-name:hover {
-  color: var(--teal1);
+  color: var(--darker-teal);
 }
 
 /**** Sidebar ****/
@@ -83,7 +81,7 @@ body {
   list-style: none;
   width: 15.5rem;
   height: 100%;
-  border-right: 1px solid var(--black);
+  border-right: 1px solid var(--dark-black);
   padding: 0;
   margin: 0;
   overflow-y: scroll;
@@ -91,17 +89,17 @@ body {
 .sidebar-heading {
   padding: 1rem;
 }
-.sidebar-items {
+.sidebar-link {
   text-decoration: none;
   font-size: 1.25rem;
-  color: var(--teal1);
+  color: var(--darker-teal);
 }
-.sidebar-list-items {
+.sidebar-list-item {
   padding: 1.25rem;
 }
 
-.sidebar-list-items:hover {
-  background-color: var(--teal3);
+.sidebar-list-item:hover {
+  background-color: var(--light-teal);
 }
 
 /****** main content   *******/
@@ -119,6 +117,6 @@ body {
 .line-separate {
   height: 0;
   margin: 0;
-  color: var(--greyOne);
+  color: var(--darkest-grey);
   width: 100%;
 }
