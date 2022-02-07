@@ -5,6 +5,8 @@
   --dark-black: #292524;
   --darkest-grey: #44403c;
   --darker-grey: #57534e;
+  --dark-grey: #78716c;
+  --medium-grey: #a8a29e;
   --light-grey: #e2e8f0;
   --darker-teal: #115e59;
   --dark-teal: #2dd4bf;
@@ -15,6 +17,7 @@
   --dark-yellow: #facc15;
   --medium-orange: #fb923c;
   --medium-blue: #60a5fa;
+  --light-blue: #93c5fd;
   --medium-green: #16a34a;
   --dark-green: #15803d;
 }
@@ -25,8 +28,19 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+a {
+  text-decoration: none;
+}
+.margin-top-bottom-zero {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.bold {
+  font-weight: 510;
+}
 /******** navbar   ********/
 .navbar {
+  z-index: 1;
   display: flex;
   height: 4rem;
   background-color: var(--dark-black);
