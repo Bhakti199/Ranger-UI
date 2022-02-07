@@ -1,0 +1,77 @@
+@import url(/avatar/avatar.css);
+@import url(/style.css);
+
+.badge-on-icon-container,
+.badge-on-avatar-container {
+  height: 4rem;
+}
+.badge-on-icon,
+.badge-on-avatar {
+  border: none;
+  background-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  position: relative;
+}
+.fa-shopping-cart {
+  font-size: 1.5rem;
+  color: var(--darkest-grey);
+}
+.badge-on-icon-notify,
+.badge-on-avatar-notify {
+  position: absolute;
+  height: 1.25rem;
+  width: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--off-white);
+  background-color: var(--medium-red);
+}
+.badge-on-avatar-status {
+  position: absolute;
+  top: 2.8rem;
+  left: 2.8rem;
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 50%;
+  background-color: var(--medium-green);
+}
+.badge-on-avatar-wrapper {
+  display: flex;
+  gap: 3.5rem;
+}
+.badge-on-avatar-notify {
+  top: -6px;
+  right: -5px;
+}
+.badge-on-icon-notify {
+  top: -11px;
+  right: -10px;
+}
+.avatar-md {
+  position: relative;
+}
+iframe {
+  width: 37rem;
+}
+.badge-on-icon-iframe {
+  height: 14.5rem;
+}
+.badge-on-avatar-iframe {
+  height: 22rem;
+}
+@media only screen and (max-width: 800px) {
+  .badge-on-icon-iframe,
+  .badge-on-avatar-iframe {
+    width: 27rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .badge-on-icon-iframe,
+  .badge-on-avatar-iframe {
+    width: 18.75rem;
+  }
+}
