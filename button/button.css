@@ -6,17 +6,17 @@
 }
 .btn-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
-  height: 16rem;
-  margin-bottom: 1rem;
+  margin: 2rem 0 2rem 0;
 }
 
 /* primary btns */
 
 .primary-btn-sm,
-.primary-btn-md,
+.primary-btn-md-one,
+.primary-btn-md-two,
 .primary-btn-lg,
 .btn-with-icon-sm,
 .btn-with-icon-md,
@@ -24,35 +24,48 @@
   border: none;
   color: var(--dark-black);
   border: none;
+  border-radius: 3px;
   font-size: 1.25rem;
 }
-
+.secondary-btn-md {
+  border: none;
+  border-radius: 3px;
+  font-size: 1.25rem;
+  transition: 0.3s;
+}
 .primary-btn-sm {
   background-color: var(--medium-blue);
-  width: 8rem;
-  padding: 1rem 2rem;
+  width: 7rem;
+  padding: 10px 10px;
 }
 .btn-with-icon-sm {
   background-color: var(--medium-blue);
   width: 10rem;
   padding: 1rem;
 }
-.primary-btn-md,
+.primary-btn-md-one,
 .btn-with-icon-md {
-  background-color: var(--medium-yellow);
-  width: 12rem;
-  padding: 1rem 2rem;
+  background-color: var(--medium-blue);
 }
-
+.primary-btn-md-two {
+  background-color: var(--medium-grey);
+}
+.primary-btn-md-one,
+.primary-btn-md-two,
+.secondary-btn-md,
+.btn-with-icon-md {
+  width: 16rem;
+  padding: 11.2px 2rem;
+}
 .primary-btn-lg,
 .btn-with-icon-lg {
-  background-color: var(--medium-orange);
-  width: 16rem;
-  padding: 1.5rem 2rem;
+  background-color: var(--medium-blue);
+  width: 20rem;
+  padding: 0.7rem 2rem;
 }
-
 .primary-btn-sm:hover,
-.primary-btn-md:hover,
+.primary-btn-md-one:hover,
+.primary-btn-md-two:hover,
 .primary-btn-lg:hover,
 .btn-with-icon-sm:hover,
 .btn-with-icon-md:hover,
@@ -62,17 +75,18 @@
 
 /* secondary btns */
 .secondary-btn-sm,
-.secondary-btn-md,
 .secondary-btn-lg {
   border: 2px solid;
   background-color: transparent;
   font-size: 1.25rem;
 }
 .secondary-btn-sm {
+  box-sizing: border-box;
   border-color: var(--light-grey);
   color: var(--dark-black);
-  width: 8rem;
-  padding: 1rem 2rem 1rem 2rem;
+  width: 7rem;
+  padding: 8px 10px;
+  border-radius: 3px;
   transition: 0.3s;
 }
 .secondary-btn-sm:hover {
@@ -81,15 +95,8 @@
   color: var(--off-white);
 }
 
-.secondary-btn-md {
-  border-color: var(--medium-yellow);
-  color: var(--dark-black);
-  width: 12rem;
-  padding: 1rem 2rem;
-  transition: 0.3s;
-}
 .secondary-btn-md:hover {
-  background-color: var(--medium-yellow);
+  background-color: var(--dark-grey);
   color: var(--off-white);
 }
 

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>RangerUI | docs</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <span class="navbar-heading"
+        ><a href="" class="ranger-ui ranger-ui-name">RangerUI</a></span
+      >
+      <section class="navbar-social-links">
+        <button class="navbar-btn">
+          <a
+            href="https://github.com/Bhakti199"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="navbar-btn-link"
+            ><i class="fab fa-github"></i
+          ></a>
+        </button>
+        <button class="navbar-btn">
+          <a
+            href="https://twitter.com/Bhaktee_"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="navbar-btn-link"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </button>
+        <button class="navbar-btn">
+          <a
+            href="https://www.linkedin.com/in/bhakti-kharatkar-33178a200/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="navbar-btn-link"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </button>
+      </section>
+    </nav>
+
+    <ul class="sidebar" id="sidebarMenu">
+      <li class="sidebar-list-item">
+        <a href="../documentation.html" class="sidebar-link">Installation</a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/avatar/avatar.html" class="sidebar-link"> Avatar </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/alert/alert.html" class="sidebar-link"> Alert </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/badge/badge.html" class="sidebar-link"> Badge </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/button/button.html" class="sidebar-link"> Button </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/card/card.html" class="sidebar-link"> Card </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/image/image.html" class="sidebar-link"> Image </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/input/input.html" class="sidebar-link"> Input </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/rating/rating.html" class="sidebar-link"> Rating </a>
+      </li>
+    </ul>
+
+    <div class="main-content">
+      <h1 class="main-heading">Card</h1>
+      <hr class="line-separate" />
+      <p class="card-intro">
+        Card are used to display the content related to single element like
+        types and other info.
+      </p>
+
+      <h2>Vertical card</h2>
+      <div class="card-container">
+        <div class="vertical-card">
+          <div class="vertical-card-image">
+            <img
+              src="/images/card-image.jpg"
+              alt="product-image"
+              class="responsive-image"
+            />
+          </div>
+          <div class="vertical-card-content">
+            <h3 class="vertical-card-content-one margin-top-bottom-zero">
+              Puma
+            </h3>
+            <h4 class="vertical-card-content-two margin-top-bottom-zero">
+              Fire run running shoes for men
+            </h4>
+            <div class="vertical-card-content-three">
+              <p class="current-price margin-top-bottom-zero">Rs.1679</p>
+              <p class="original-price margin-top-bottom-zero">Rs.2999</p>
+              <p class="discount-text margin-top-bottom-zero">44% Off</p>
+            </div>
+          </div>
+          <div>
+            <button class="primary-btn-md-one">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <iframe
+        src="https://www.thiscodeworks.com/embed/620108b44dd44f0015f3cdde"
+        class="card-iframe"
+        frameborder="0"
+      ></iframe>
+      <hr class="line-separate" />
+
+      <h2>Card with badges</h2>
+      <div class="vertical-card-container">
+        <div class="vertical-card">
+          <div class="vertical-card-image">
+            <img
+              src="/images/card-image.jpg"
+              alt="product-image"
+              class="responsive-image"
+            />
+            <button class="wishlist-btn-passive">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+          <div class="vertical-card-content">
+            <h3 class="vertical-card-content-one margin-top-bottom-zero">
+              Puma
+            </h3>
+            <h4 class="vertical-card-content-two margin-top-bottom-zero">
+              Fire run running shoes for men
+            </h4>
+            <div class="vertical-card-content-three">
+              <p class="current-price margin-top-bottom-zero">Rs.1679</p>
+              <p class="original-price margin-top-bottom-zero">Rs.2999</p>
+              <p class="discount-text margin-top-bottom-zero">44% Off</p>
+            </div>
+          </div>
+          <div>
+            <button class="primary-btn-md-one">Add to cart</button>
+          </div>
+        </div>
+
+        <div class="vertical-card">
+          <div class="vertical-card-image">
+            <img
+              src="/images/card-image.jpg"
+              alt="product-image"
+              class="responsive-image"
+            />
+            <button class="wishlist-btn-active">
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+          <div class="vertical-card-content">
+            <h3 class="vertical-card-content-one margin-top-bottom-zero">
+              Puma
+            </h3>
+            <h4 class="vertical-card-content-two margin-top-bottom-zero">
+              Fire run running shoes for men
+            </h4>
+            <div class="vertical-card-content-three">
+              <p class="current-price margin-top-bottom-zero">Rs.1679</p>
+              <p class="original-price margin-top-bottom-zero">Rs.2999</p>
+              <p class="discount-text margin-top-bottom-zero">44% Off</p>
+            </div>
+          </div>
+          <div>
+            <button class="primary-btn-md-one">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <iframe
+        src="https://www.thiscodeworks.com/embed/620109dc4dd44f0015f3cde6"
+        class="card-with-badges-iframe"
+        frameborder="0"
+      ></iframe>
+      <hr class="line-separate" />
+
+      <h2>Horizontal Card</h2>
+      <div class="card-container">
+        <div class="horizontal-card">
+          <div class="horizontal-card-image">
+            <img
+              src="/images/card-image.jpg"
+              alt="product-image"
+              class="responsive-image"
+            />
+            <button class="wishlist-btn-active">
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+          <div class="horizontal-card-sectionTwo">
+            <div class="horizontal-card-content">
+              <h3 class="vertical-card-content-one margin-top-bottom-zero">
+                Puma
+              </h3>
+              <h4 class="vertical-card-content-two margin-top-bottom-zero">
+                Fire run running shoes for men
+              </h4>
+              <div class="vertical-card-content-three">
+                <p class="current-price">Rs.1679</p>
+                <p class="original-price">Rs.2999</p>
+                <p class="discount-text">44% Off</p>
+              </div>
+              <div class="quantity-section">
+                <span>quantity:</span>
+                <button class="incre-decre-btn">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <span class="quantity">1</span>
+                <button class="incre-decre-btn">
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div>
+            </div>
+            <div class="horizontal-card-btn">
+              <button class="primary-btn-md-two">Remove from cart</button>
+              <button class="secondary-btn-md">Move to wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <iframe
+        src="https://www.thiscodeworks.com/embed/62010ab04dd44f0015f3cde9"
+        class="horizontal-card-iframe"
+        class="card-iframe"
+        frameborder="0"
+      ></iframe>
+      <hr class="line-separate" />
+
+      <h2>Text only cards</h2>
+      <div class="card-container">
+        <div class="text-card">
+          <div class="text-card-section-one">
+            <h3>PRICE DETAILS</h3>
+            <hr class="line-separate" />
+            <p class="text-card-item">
+              <span class="margin-left">price (<span>2</span> items)</span>
+              <span>Rs.4000</span>
+            </p>
+            <p class="text-card-item">
+              <span class="margin-left">Discount</span>
+              <span><i class="fas fa-minus"></i> Rs.400</span>
+            </p>
+            <p class="text-card-item">
+              <span class="margin-left">Delivery charges</span>
+              <span>Rs.199</span>
+            </p>
+            <hr class="line-separate" />
+            <p class="text-card-item">
+              <span class="margin-left bold">TOTAL AMOUNT</span>
+              <span class="bold">Rs.3799</span>
+            </p>
+            <hr class="line-separate" />
+            <p>You have saved Rs.400 on this purchase.</p>
+          </div>
+          <div class="text-card-section-two">
+            <button class="primary-btn-lg">Place Order</button>
+          </div>
+        </div>
+      </div>
+
+      <iframe
+        src="https://www.thiscodeworks.com/embed/62010bcf4dd44f0015f3cdee"
+        class="text-only-card-iframe"
+        frameborder="0"
+      ></iframe>
+      <hr class="line-separate" />
+
+      <h2>Cards with dismiss</h2>
+      <div class="card-container">
+        <div class="vertical-card">
+          <div class="vertical-card-image">
+            <img
+              src="/images/card-image.jpg"
+              alt="product-image"
+              class="responsive-image"
+            />
+            <button class="cross-btn">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <div class="vertical-card-content">
+            <h3 class="vertical-card-content-one margin-top-bottom-zero">
+              Puma
+            </h3>
+            <h4 class="vertical-card-content-two margin-top-bottom-zero">
+              Fire run running shoes for men
+            </h4>
+            <div class="vertical-card-content-three">
+              <p class="current-price margin-top-bottom-zero">Rs.1679</p>
+              <p class="original-price margin-top-bottom-zero">Rs.2999</p>
+              <p class="discount-text margin-top-bottom-zero">44% Off</p>
+            </div>
+          </div>
+          <div>
+            <button class="primary-btn-md-one">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <iframe
+        src="https://www.thiscodeworks.com/embed/62010c2b4dd44f0015f3cdf0"
+        frameborder="0"
+        class="card-iframe"
+      ></iframe>
+      <hr class="line-separate" />
+
+      <h2>Cards with text overlay</h2>
+      <div class="card-container">
+        <div class="text-overlay-card">
+          <div class="vertical-card-image">
+            <img
+              src="/images/card-image.jpg"
+              alt="product-image"
+              class="responsive-image"
+            />
+          </div>
+          <div class="text-overlay-card-content">
+            <h3 class="text-ovrlay-card-content-item margin-top-bottom-zero">
+              Puma
+            </h3>
+            <h4 class="text-ovrlay-card-content-item margin-top-bottom-zero">
+              Fire run running shoes for men
+            </h4>
+            <div class="vertical-card-content-three">
+              <p class="current-price margin-top-bottom-zero">Rs.1679</p>
+              <p class="original-price margin-top-bottom-zero">Rs.2999</p>
+              <p class="discount-text margin-top-bottom-zero">44% Off</p>
+            </div>
+          </div>
+          <div>
+            <button class="primary-btn-md-one">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <iframe
+        src="https://www.thiscodeworks.com/embed/62011755ed723a001551bf8a"
+        class="card-iframe"
+        frameborder="0"
+      ></iframe>
+      <hr class="line-separate" />
+    </div>
+  </body>
+</html>
