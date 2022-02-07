@@ -1,0 +1,192 @@
+@import url(/style.css);
+@import url(/button/button.css);
+@import url(/image/image.css);
+
+.card-container {
+  margin: 1rem 0 2rem 0;
+}
+.vertical-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.vertical-card,
+.text-overlay-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: var(--off-white);
+  max-width: 17rem;
+  height: auto;
+  padding: 7px;
+  transition: 0.2s;
+}
+.wishlist-btn-passive,
+.wishlist-btn-active,
+.cross-btn {
+  position: absolute;
+
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 1.2rem;
+}
+.wishlist-btn-passive {
+  top: 1rem;
+  right: 1rem;
+  border-radius: 50%;
+  color: var(--darker-grey);
+  background-color: var(--off-white);
+}
+.wishlist-btn-active {
+  top: 1rem;
+  right: 1rem;
+  border-radius: 50%;
+  color: var(--medium-red);
+  background-color: var(--off-white);
+}
+.cross-btn {
+  top: 7px;
+  right: 7px;
+  color: var(--off-white);
+  background-color: var(--medium-red);
+  border-radius: 3px;
+}
+.vertical-card:hover,
+.text-overlay-card:hover,
+.horizontal-card:hover,
+.text-card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.vertical-card-content,
+.text-overlay-card-content,
+.horizontal-card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.vertical-card-content,
+.text-overlay-card-content,
+.horizontal-card-content {
+  gap: 10px;
+}
+.horizontal-card-content {
+  padding: 1.25rem;
+}
+.vertical-card-content-one,
+.text-ovrlay-card-content-item {
+  font-size: 1.25rem;
+}
+.vertical-card-content-two {
+  color: var(--darker-grey);
+}
+.vertical-card-content-three {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.813rem;
+}
+.current-price {
+  font-size: 1.25rem;
+  font-weight: 510;
+}
+.original-price {
+  text-decoration: line-through;
+  color: var(--darker-grey);
+}
+.discount-text {
+  font-weight: 510;
+  color: var(--medium-green);
+}
+/* horizontal card */
+
+.horizontal-card {
+  background-color: var(--off-white);
+  height: auto;
+  display: flex;
+  padding: 7px;
+  border-radius: 3px;
+}
+.horizontal-card-image {
+  max-width: 17rem;
+}
+.horizontal-card-sectionTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.incre-decre-btn {
+  background-color: transparent;
+  border: 1px solid var(--dark-black);
+  border-radius: 50%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.quantity {
+  box-sizing: border-box;
+  border: 1px solid var(--dark-black);
+  padding: 0 6px 0 6px;
+}
+.quantity-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.horizontal-card-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/*text-card  */
+.text-card {
+  background-color: var(--off-white);
+}
+
+.text-card-section-one {
+  padding: 1rem;
+}
+.text-card-section-two {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.text-card-item {
+  display: flex;
+  justify-content: space-between;
+}
+.text-overlay-card-content {
+  position: absolute;
+  bottom: 3.5rem;
+  left: 0.5rem;
+  color: var(--off-white);
+}
+/* iframes */
+iframe {
+  width: 37rem;
+}
+.card-iframe {
+  height: 26rem;
+}
+.text-only-card-iframe {
+  height: 32rem;
+}
+.horizontal-card-iframe {
+  height: 40rem;
+}
+.card-with-badges-iframe {
+  height: 52rem;
+}
