@@ -9,8 +9,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0 2rem 0;
 }
 
 /* primary btns */
@@ -29,7 +28,6 @@
   font-size: 1.25rem;
 }
 .secondary-btn-md {
-  border: none;
   border: none;
   border-radius: 3px;
   font-size: 1.25rem;
