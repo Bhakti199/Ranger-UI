@@ -1,0 +1,36 @@
+@import url(/style.css);
+@import url(/button/button.css);
+
+.modal-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.modal {
+  box-sizing: border-box;
+  border: 1px solid var(--medium-grey);
+  padding: 1rem;
+  min-width: 21rem;
+  max-width: 23rem;
+  background-color: var(--off-white);
+  border-radius: 3px;
+  height: auto;
+}
+.modal-title {
+  margin-top: 0;
+  color: var(--dark-black);
+}
+.modal-content {
+  color: var(--dark-grey);
+}
+.modal-button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+/* iframe */
+iframe {
+  width: 37rem;
+}
+.modal-iframe {
+  height: 16rem;
+}
