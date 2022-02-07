@@ -1,0 +1,47 @@
+@import url(/style.css);
+
+/* star rating */
+.rating-container {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.star-rating {
+  background-color: var(--off-white);
+  padding: 1rem;
+}
+.rating-star {
+  color: var(--dark-yellow);
+}
+
+/* numbered rating */
+.numbered-rating {
+  padding: 7px;
+  background-color: var(--dark-green);
+  border-radius: 3px;
+}
+.numbered-rating-item {
+  color: var(--off-white);
+  font-size: 1.25rem;
+}
+/* iframes */
+iframe {
+  width: 37rem;
+}
+.star-rating-iframe {
+  height: 12.5rem;
+}
+.numbered-rating-iframe {
+  height: 11.5rem;
+}
+@media only screen and (max-width: 800px) {
+  .star-rating-iframe,
+  .numbered-rating-iframe {
+    width: 27rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .star-rating-iframe,
+  .numbered-rating-iframe {
+    width: 24rem;
+  }
+}

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="badge.css" />
-    <link rel="stylesheet" href="/avatar/avatar.css" />
+    <link rel="stylesheet" href="/rating/rating.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -64,13 +64,13 @@
         <a href="/alert/alert.html" class="sidebar-link"> Alert </a>
       </li>
       <li class="sidebar-list-item">
-        <a href="/badge/badge.html" class="sidebar-link"> Badge </a>
+        <a href="" class="sidebar-link"> Badge </a>
       </li>
       <li class="sidebar-list-item">
         <a href="/button/button.html" class="sidebar-link"> Button </a>
       </li>
       <li class="sidebar-list-item">
-        <a href="" class="sidebar-link"> Card </a>
+        <a href="#" class="sidebar-link"> Cards </a>
       </li>
       <li class="sidebar-list-item">
         <a href="/image/image.html" class="sidebar-link"> Image </a>
@@ -84,58 +84,39 @@
     </ul>
 
     <div class="main-content">
-      <h1>Badge</h1>
+      <h1 class="main-heading">Rating</h1>
       <hr class="line-separate" />
-      <p class="badge-intro">
-        Badges are the status descriptor for the elements.
-      </p>
+      <p class="rating-intro">Rating are used to show evaluation.</p>
 
-      <h2>Badge on Icon</h2>
-      <div class="badge-on-icon-container">
-        <button class="badge-on-icon">
-          <i class="fas fa-shopping-cart"></i>
-          <div class="badge-on-icon-notify">
-            <span>8</span>
-          </div>
-        </button>
+      <h2>Star Rating</h2>
+      <div class="rating-container">
+        <div class="star-rating">
+          <span class="rating-star"><i class="fas fa-star"></i></span>
+          <span class="rating-star"><i class="fas fa-star"></i></span>
+          <span class="rating-star"><i class="fas fa-star"></i></span>
+          <span class="rating-star">
+            <i class="fas fa-star-half-alt"></i>
+          </span>
+          <span class="rating-star"><i class="far fa-star"></i></span>
+        </div>
       </div>
       <iframe
-        src="https://www.thiscodeworks.com/embed/61fbd22c6ab14d0015c32d58"
-        class="badge-on-icon-iframe"
+        src="https://www.thiscodeworks.com/embed/6200c64f4dd44f0015f3cd66"
+        class="star-rating-iframe"
         frameborder="0"
       ></iframe>
       <hr class="line-separate" />
 
-      <h2>Badge on Avatar</h2>
-      <div class="badge-on-avatar-wrapper">
-        <div class="badge-on-avatar-container">
-          <div class="avatar-md">
-            <img
-              src="/images/avatar-img.svg"
-              alt="profile"
-              class="avatar-img-md"
-            />
-            <div class="badge-on-avatar-notify">
-              <span>8</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="badge-on-avatar-container">
-          <div class="avatar-md">
-            <img
-              src="/images/avatar-img.svg"
-              alt="profile"
-              class="avatar-img-md"
-            />
-            <div class="badge-on-avatar-status"></div>
-          </div>
+      <h2>Numbered Rating</h2>
+      <div class="rating-container">
+        <div class="numbered-rating">
+          <span class="numbered-rating-item">4.9</span>
+          <span class="numbered-rating-item"><i class="fas fa-star"></i></span>
         </div>
       </div>
-
       <iframe
-        src="https://www.thiscodeworks.com/embed/61fbdcc76ab14d0015c32d63"
-        class="badge-on-avatar-iframe"
+        src="https://www.thiscodeworks.com/embed/6200c7684dd44f0015f3cd67"
+        class="numbered-rating-iframe"
         frameborder="0"
       ></iframe>
       <hr class="line-separate" />
