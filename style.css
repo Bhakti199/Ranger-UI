@@ -102,7 +102,6 @@ a {
   border-right: 1px solid var(--dark-black);
   padding: 0;
   margin: 0;
-  overflow-y: scroll;
 }
 .sidebar-heading {
   padding: 1rem;
@@ -113,7 +112,7 @@ a {
   color: var(--darker-teal);
 }
 .sidebar-list-item {
-  padding: 1.25rem;
+  padding: 0.6rem 2rem;
 }
 
 .sidebar-list-item:hover {
