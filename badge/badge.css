@@ -9,12 +9,12 @@
 .badge-on-avatar {
   border: none;
   background-color: transparent;
-  width: 2rem;
-  height: 2rem;
+  width: 1.8rem;
+  height: 1.8rem;
   padding: 0;
   position: relative;
 }
-.fa-shopping-cart {
+.icon-badge {
   font-size: 1.5rem;
   color: var(--darkest-grey);
 }
