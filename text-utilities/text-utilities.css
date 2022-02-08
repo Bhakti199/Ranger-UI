@@ -1,0 +1,44 @@
+@import url(/style.css);
+
+.text-container {
+  margin: 2rem 0;
+  border: 1px solid var(--dark-black);
+  height: auto;
+  width: 80%;
+  padding: 1.5rem;
+}
+.small-text {
+  font-size: 13px;
+}
+.grey-text {
+  color: var(--medium-grey);
+}
+
+.left-text {
+  text-align: left;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.centre-text {
+  text-align: center;
+}
+/* iframes */
+iframe {
+  width: 37rem;
+}
+.text-iframe {
+  height: 11rem;
+}
+@media only screen and (max-width: 800px) {
+  .text-iframe {
+    width: 27rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .text-iframe {
+    width: 24rem;
+  }
+}

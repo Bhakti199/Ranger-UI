@@ -10,6 +10,7 @@
   --light-grey: #e2e8f0;
   --darker-teal: #115e59;
   --dark-teal: #2dd4bf;
+  --medium-teal: #14b8a6;
   --light-teal: #f0fdfa;
   --medium-red: #dc2626;
   --off-white: #fafaf9;
@@ -89,7 +90,7 @@ a {
   color: var(--dark-teal);
 }
 .ranger-ui-name:hover {
-  color: var(--darker-teal);
+  color: var(--medium-teal);
 }
 
 /**** Sidebar ****/
@@ -115,7 +116,7 @@ a {
   color: var(--darker-teal);
 }
 .sidebar-list-item {
-  padding: 0.6rem 2rem;
+  padding: 0.5rem 2rem;
 }
 
 .sidebar-list-item:hover {
