@@ -1,0 +1,32 @@
+@import url(/style.css);
+
+.notify-container {
+  margin: 2rem 0;
+}
+.notify {
+  border-radius: 3px;
+  background-color: var(--lighter-blue);
+  box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.1);
+  height: auto;
+  width: 20rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.notify-content {
+  color: var(--darkest-grey);
+  margin-right: auto;
+}
+.notify-cross {
+  align-self: start;
+  border: none;
+  background-color: transparent;
+  font-size: 1.25rem;
+}
+/* iframe */
+iframe {
+  width: 37rem;
+}
+.notify-iframe {
+  height: 16rem;
+}
