@@ -1,0 +1,91 @@
+@import url(/style.css);
+@import url(/badge/badge.css);
+
+.nav-intro-heading,
+.nav-intro {
+  text-align: center;
+}
+.nav-container {
+  min-width: 40rem;
+  height: auto;
+  margin: 3rem 2rem 2rem 2rem;
+}
+.nav-standard-item {
+  display: flex;
+}
+.nav-standard-list-item {
+  border-radius: 4px;
+  list-style: none;
+  font-weight: 510;
+  padding: 10px;
+  color: var(--dark-black);
+}
+.nav-button {
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  border: none;
+  background-color: transparent;
+  color: var(--dark-black);
+}
+.nav-standard-list-item:hover {
+  background-color: var(--lightest-blue);
+}
+.nav-standard {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.1);
+}
+.navbar-name {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--dark-blue);
+}
+.nav-standard-item-sectionOne,
+.nav-standard-item-sectionTwo {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.nav-standard-item-sectionOne {
+  justify-content: flex-start;
+}
+.nav-standard-item-sectionTwo {
+  margin-left: auto;
+  justify-content: flex-end;
+  margin-right: 1.25rem;
+}
+
+.main-content-nav {
+  margin-top: 4rem;
+  margin-left: 15.5rem;
+  height: 100%;
+  padding: 1rem;
+}
+/* iframes */
+.iframe-container {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.nav-iframe {
+  width: 37rem;
+  height: 34rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-iframe {
+    width: 27rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .nav-iframe {
+    width: 24rem;
+  }
+}
