@@ -30,3 +30,13 @@ iframe {
 .notify-iframe {
   height: 16rem;
 }
+@media only screen and (max-width: 800px) {
+  .notify-iframe {
+    width: 27rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .notify-iframe {
+    width: 24rem;
+  }
+}
