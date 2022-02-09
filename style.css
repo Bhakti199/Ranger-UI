@@ -32,17 +32,92 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+
+/* utility classes */
 a {
   text-decoration: none;
 }
+
 .margin-top-bottom-zero {
   margin-top: 0;
   margin-bottom: 0;
 }
-.bold {
+
+.min-bold {
   font-weight: 510;
 }
-/******** navbar   ********/
+
+.flex {
+  display: flex;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-start-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.component-name {
+  color: var(--darkest-grey);
+}
+.component-intro {
+  text-align: justify;
+  color: var(--darkest-grey);
+}
+
+.sub-component-name {
+  color: var(--darker-grey);
+}
+/* iframe */
+
+iframe {
+  width: 37rem;
+}
+
+@media only screen and (max-width: 800px) {
+  iframe {
+    width: 27rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  iframe {
+    width: 24rem;
+  }
+}
+
+/* navbar   */
+
 .navbar {
   z-index: 1;
   display: flex;
@@ -54,10 +129,9 @@ a {
   left: 0;
   box-shadow: 2px 7px 7px 2px rgba(0, 0, 0, 0.1);
 }
+
 .navbar-heading {
-  margin-right: auto;
-  margin-top: 1rem;
-  margin-left: 1rem;
+  margin: 1rem auto 0 1rem;
 }
 
 .navbar-social-links {
@@ -66,6 +140,7 @@ a {
   gap: 10px;
   margin-right: 0.5rem;
 }
+
 .navbar-btn {
   font-size: 1.25rem;
   height: 2.5rem;
@@ -73,22 +148,26 @@ a {
   border: none;
   border-radius: 4px;
 }
+
 .navbar-btn:hover {
   background-color: var(--darkest-grey);
 }
+
 .navbar-btn-link {
   color: var(--dark-teal);
 }
+
 .ranger-ui {
   font-family: "Great Vibes", cursive;
   font-weight: 600;
-  color: var(--dark-teal);
 }
+
 .ranger-ui-name {
+  color: var(--dark-teal);
   text-decoration: none;
   font-size: 2.25rem;
-  color: var(--dark-teal);
 }
+
 .ranger-ui-name:hover {
   color: var(--medium-teal);
 }
@@ -100,23 +179,24 @@ a {
   top: 4rem;
   left: 0;
   bottom: 0;
-  list-style: none;
   width: 15.5rem;
   height: 100%;
   border-right: 1px solid var(--dark-black);
   padding: 0;
   margin: 0;
 }
+
 .sidebar-heading {
   padding: 1rem;
 }
+
 .sidebar-link {
-  text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: var(--darker-teal);
 }
+
 .sidebar-list-item {
-  padding: 0.5rem 2rem;
+  padding: 0.4rem 2rem;
 }
 
 .sidebar-list-item:hover {
@@ -129,8 +209,6 @@ a {
   margin-top: 4rem;
   margin-left: 15.5rem;
   height: 100%;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 1rem;
 }

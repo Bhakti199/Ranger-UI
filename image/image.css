@@ -11,21 +11,9 @@
   max-width: 21.875rem;
   max-height: 21.875rem;
 }
-iframe {
-  width: 37rem;
-}
+
+/* iframe */
 .image-iframe {
   margin-top: 2rem;
   height: 14rem;
-}
-
-@media only screen and (max-width: 800px) {
-  .image-iframe {
-    width: 27rem;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .image-iframe {
-    width: 24rem;
-  }
 }

@@ -3,10 +3,6 @@
   height: 100vh;
   width: 100%;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 1.25rem;
   background-color: var(--dark-black);
 }
@@ -28,6 +24,7 @@
   font-size: 1.25rem;
   line-height: normal;
   color: var(--light-grey);
+  text-align: justify;
 }
 .landing-page-btn {
   border: none;
@@ -49,8 +46,6 @@
   color: var(--dark-teal);
 }
 .landing-page-social-links {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   position: absolute;
   bottom: 2rem;

@@ -23,9 +23,6 @@
   position: absolute;
   height: 1.25rem;
   width: 1.25rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 50%;
   color: var(--off-white);
   background-color: var(--medium-red);
@@ -40,7 +37,7 @@
   background-color: var(--medium-green);
 }
 .badge-on-avatar-wrapper {
-  display: flex;
+  margin-bottom: 2rem;
   gap: 3.5rem;
 }
 .badge-on-avatar-notify {
@@ -54,24 +51,10 @@
 .avatar-md {
   position: relative;
 }
-iframe {
-  width: 37rem;
-}
+
 .badge-on-icon-iframe {
   height: 14.5rem;
 }
 .badge-on-avatar-iframe {
   height: 22rem;
-}
-@media only screen and (max-width: 800px) {
-  .badge-on-icon-iframe,
-  .badge-on-avatar-iframe {
-    width: 27rem;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .badge-on-icon-iframe,
-  .badge-on-avatar-iframe {
-    width: 18.75rem;
-  }
 }

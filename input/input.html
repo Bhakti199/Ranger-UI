@@ -108,43 +108,46 @@
       </li>
     </ul>
 
-    <div class="main-content">
-      <h1 class="main-content-heading">Inputs</h1>
+    <div class="main-content flex-col">
+      <h1 class="component-name">Inputs</h1>
       <hr class="line-separate" />
 
-      <p class="input-intro">
+      <p class="component-intro">
         Input are used for accessing the user data for interaction with website.
         Keyboard and mouse can be used for providing or changing data.
       </p>
-      <h2>Label Inputs</h2>
 
-      <form class="form-login">
-        <h2 class="form-heading">Log in</h2>
-        <div class="input-container">
-          <label for="" class="form-label">User ID</label>
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="Enter user ID "
-            class="form-input"
-          />
-        </div>
+      <h2 class="sub-component-name">Label Inputs</h2>
+      <div class="form-container">
+        <form class="form-login flex-col-center">
+          <h2 class="form-heading">Log in</h2>
+          <div class="input-container">
+            <label for="" class="form-label">User ID</label>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter user ID "
+              class="form-input"
+            />
+          </div>
 
-        <div class="input-container">
-          <label for="" class="form-label">password</label>
-          <input
-            type="password"
-            placeholder="Enter password"
-            class="form-input"
-          />
-        </div>
+          <div class="input-container">
+            <label for="" class="form-label">password</label>
+            <input
+              type="password"
+              placeholder="Enter password"
+              class="form-input"
+            />
+          </div>
 
-        <div class="form-button">
-          <button class="login-btn">login</button>
-          <button class="cancel-btn">Cancel</button>
-        </div>
-      </form>
+          <div class="form-button">
+            <button class="login-btn">login</button>
+            <button class="cancel-btn">Cancel</button>
+          </div>
+        </form>
+      </div>
+
       <iframe
         src="https://www.thiscodeworks.com/embed/61fcbe98b57bf800152b7201"
         class="label-input-iframe"
@@ -152,7 +155,7 @@
       ></iframe>
       <hr class="line-separate" />
 
-      <h2>Error Input</h2>
+      <h2 class="sub-component-name">Error Input</h2>
       <div class="error-input-container">
         <div class="error-input">
           <label for="" class="password-label">Confirm password</label>
@@ -171,9 +174,9 @@
       ></iframe>
       <hr class="line-separate" />
 
-      <h2>Input Textarea</h2>
-      <div class="input-container-for-textarea">
-        <div class="input-textarea-container">
+      <h2 class="sub-component-name">Input Textarea</h2>
+      <div class="input-textarea-wrapper">
+        <div class="input-textarea-container flex-col">
           <label for="">Textarea</label>
           <textarea
             name=""

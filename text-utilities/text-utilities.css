@@ -26,19 +26,7 @@
   text-align: center;
 }
 /* iframes */
-iframe {
-  width: 37rem;
-}
+
 .text-iframe {
   height: 11rem;
-}
-@media only screen and (max-width: 800px) {
-  .text-iframe {
-    width: 27rem;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .text-iframe {
-    width: 24rem;
-  }
 }

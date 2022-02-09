@@ -108,17 +108,17 @@
       </li>
     </ul>
 
-    <div class="main-content">
-      <h1 class="main-heading">Card</h1>
+    <div class="main-content flex-col">
+      <h1 class="component-name">Card</h1>
       <hr class="line-separate" />
-      <p class="card-intro">
+      <p class="component-intro">
         Card are used to display the content related to single element like
         types and other info.
       </p>
 
-      <h2>Vertical card</h2>
+      <h2 class="sub-component-name">Vertical card</h2>
       <div class="card-container">
-        <div class="vertical-card">
+        <div class="vertical-card flex-col-center">
           <div class="vertical-card-image">
             <img
               src="/images/card-image.jpg"
@@ -133,7 +133,7 @@
             <h4 class="vertical-card-content-two margin-top-bottom-zero">
               Fire run running shoes for men
             </h4>
-            <div class="vertical-card-content-three">
+            <div class="vertical-card-content-three flex-start-row">
               <p class="current-price margin-top-bottom-zero">Rs.1679</p>
               <p class="original-price margin-top-bottom-zero">Rs.2999</p>
               <p class="discount-text margin-top-bottom-zero">44% Off</p>
@@ -152,16 +152,16 @@
       ></iframe>
       <hr class="line-separate" />
 
-      <h2>Card with badges</h2>
-      <div class="vertical-card-container">
-        <div class="vertical-card">
+      <h2 class="sub-component-name">Card with badges</h2>
+      <div class="vertical-card-container flex-row-center">
+        <div class="vertical-card flex-col-center">
           <div class="vertical-card-image">
             <img
               src="/images/card-image.jpg"
               alt="product-image"
               class="responsive-image"
             />
-            <button class="wishlist-btn-passive">
+            <button class="wishlist-btn-passive flex-row-center">
               <i class="far fa-heart"></i>
             </button>
           </div>
@@ -172,7 +172,7 @@
             <h4 class="vertical-card-content-two margin-top-bottom-zero">
               Fire run running shoes for men
             </h4>
-            <div class="vertical-card-content-three">
+            <div class="vertical-card-content-three flex-start-row">
               <p class="current-price margin-top-bottom-zero">Rs.1679</p>
               <p class="original-price margin-top-bottom-zero">Rs.2999</p>
               <p class="discount-text margin-top-bottom-zero">44% Off</p>
@@ -183,14 +183,14 @@
           </div>
         </div>
 
-        <div class="vertical-card">
+        <div class="vertical-card flex-col-center">
           <div class="vertical-card-image">
             <img
               src="/images/card-image.jpg"
               alt="product-image"
               class="responsive-image"
             />
-            <button class="wishlist-btn-active">
+            <button class="wishlist-btn-active flex-row-center">
               <i class="fas fa-heart"></i>
             </button>
           </div>
@@ -201,7 +201,7 @@
             <h4 class="vertical-card-content-two margin-top-bottom-zero">
               Fire run running shoes for men
             </h4>
-            <div class="vertical-card-content-three">
+            <div class="vertical-card-content-three flex-start-row">
               <p class="current-price margin-top-bottom-zero">Rs.1679</p>
               <p class="original-price margin-top-bottom-zero">Rs.2999</p>
               <p class="discount-text margin-top-bottom-zero">44% Off</p>
@@ -219,7 +219,7 @@
       ></iframe>
       <hr class="line-separate" />
 
-      <h2>Horizontal Card</h2>
+      <h2 class="sub-component-name">Horizontal Card</h2>
       <div class="card-container">
         <div class="horizontal-card">
           <div class="horizontal-card-image">
@@ -232,7 +232,7 @@
               <i class="fas fa-heart"></i>
             </button>
           </div>
-          <div class="horizontal-card-sectionTwo">
+          <div class="horizontal-card-sectionTwo flex-col">
             <div class="horizontal-card-content">
               <h3 class="vertical-card-content-one margin-top-bottom-zero">
                 Puma
@@ -240,14 +240,14 @@
               <h4 class="vertical-card-content-two margin-top-bottom-zero">
                 Fire run running shoes for men
               </h4>
-              <div class="vertical-card-content-three">
+              <div class="vertical-card-content-three flex-start-row">
                 <p class="current-price">Rs.1679</p>
                 <p class="original-price">Rs.2999</p>
                 <p class="discount-text">44% Off</p>
               </div>
-              <div class="quantity-section">
+              <div class="quantity-section flex">
                 <span>quantity:</span>
-                <button class="incre-decre-btn">
+                <button class="incre-decre-btn flex-row-center">
                   <i class="fas fa-minus"></i>
                 </button>
                 <span class="quantity">1</span>
@@ -256,7 +256,7 @@
                 </button>
               </div>
             </div>
-            <div class="horizontal-card-btn">
+            <div class="horizontal-card-btn flex-col-center">
               <button class="primary-btn-md-two">Remove from cart</button>
               <button class="secondary-btn-md">Move to wishlist</button>
             </div>
@@ -271,33 +271,33 @@
       ></iframe>
       <hr class="line-separate" />
 
-      <h2>Text only cards</h2>
+      <h2 class="sub-component-name">Text only cards</h2>
       <div class="card-container">
         <div class="text-card">
           <div class="text-card-section-one">
             <h3>PRICE DETAILS</h3>
             <hr class="line-separate" />
-            <p class="text-card-item">
+            <p class="text-card-item flex">
               <span class="margin-left">price (<span>2</span> items)</span>
               <span>Rs.4000</span>
             </p>
-            <p class="text-card-item">
+            <p class="text-card-item flex">
               <span class="margin-left">Discount</span>
               <span><i class="fas fa-minus"></i> Rs.400</span>
             </p>
-            <p class="text-card-item">
+            <p class="text-card-item flex">
               <span class="margin-left">Delivery charges</span>
               <span>Rs.199</span>
             </p>
             <hr class="line-separate" />
-            <p class="text-card-item">
+            <p class="text-card-item flex">
               <span class="margin-left bold">TOTAL AMOUNT</span>
               <span class="bold">Rs.3799</span>
             </p>
             <hr class="line-separate" />
             <p>You have saved Rs.400 on this purchase.</p>
           </div>
-          <div class="text-card-section-two">
+          <div class="text-card-section-two flex">
             <button class="primary-btn-lg">Place Order</button>
           </div>
         </div>
@@ -310,16 +310,16 @@
       ></iframe>
       <hr class="line-separate" />
 
-      <h2>Cards with dismiss</h2>
+      <h2 class="sub-component-name">Cards with dismiss</h2>
       <div class="card-container">
-        <div class="vertical-card">
+        <div class="vertical-card flex-col-center">
           <div class="vertical-card-image">
             <img
               src="/images/card-image.jpg"
               alt="product-image"
               class="responsive-image"
             />
-            <button class="cross-btn">
+            <button class="cross-btn flex-row-center">
               <i class="fas fa-times"></i>
             </button>
           </div>
@@ -330,7 +330,7 @@
             <h4 class="vertical-card-content-two margin-top-bottom-zero">
               Fire run running shoes for men
             </h4>
-            <div class="vertical-card-content-three">
+            <div class="vertical-card-content-three flex-start-row">
               <p class="current-price margin-top-bottom-zero">Rs.1679</p>
               <p class="original-price margin-top-bottom-zero">Rs.2999</p>
               <p class="discount-text margin-top-bottom-zero">44% Off</p>
@@ -349,9 +349,9 @@
       ></iframe>
       <hr class="line-separate" />
 
-      <h2>Cards with text overlay</h2>
+      <h2 class="sub-component-name">Cards with text overlay</h2>
       <div class="card-container">
-        <div class="text-overlay-card">
+        <div class="text-overlay-card flex-col-center">
           <div class="vertical-card-image">
             <img
               src="/images/card-image.jpg"
@@ -366,7 +366,7 @@
             <h4 class="text-ovrlay-card-content-item margin-top-bottom-zero">
               Fire run running shoes for men
             </h4>
-            <div class="vertical-card-content-three">
+            <div class="vertical-card-content-three flex-start-row">
               <p class="current-price margin-top-bottom-zero">Rs.1679</p>
               <p class="original-price margin-top-bottom-zero">Rs.2999</p>
               <p class="discount-text margin-top-bottom-zero">44% Off</p>

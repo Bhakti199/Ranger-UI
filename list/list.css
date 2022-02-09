@@ -3,11 +3,9 @@
 .list-container {
   margin: 2rem 0;
   width: 100%;
-  display: flex;
   justify-content: center;
 }
 .normal-list {
-  list-style-type: none;
   border: 1px solid var(--dark-black);
   padding: 0;
   align-items: center;
@@ -55,24 +53,10 @@
   font-size: 12px;
 }
 /* iframe */
-iframe {
-  width: 37rem;
-}
+
 .normal-list-iframe {
   height: 15rem;
 }
 .stacked-list-iframe {
   height: 40rem;
-}
-@media only screen and (max-width: 800px) {
-  .normal-list-iframe,
-  .stacked-list-iframe {
-    width: 27rem;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .normal-list-iframe,
-  .stacked-list-iframe {
-    width: 24rem;
-  }
 }

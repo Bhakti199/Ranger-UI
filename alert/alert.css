@@ -7,44 +7,38 @@
   --alert-red: #fecaca;
 }
 
-.alert-intro {
-  font-size: 1.25rem;
-  padding: 1rem 0;
+.alert-container {
+  margin: 2rem 0;
 }
+
 .alert {
   padding: 1rem;
   width: 20rem;
   margin-bottom: 10px;
 }
+
 .fa-check-circle,
 .fa-info-circle,
 .fa-times-circle {
   margin-right: 3px;
 }
+
 .alert-success {
   background-color: var(--alert-green);
 }
+
 .alert-informational-notes {
   background-color: var(--alert-blue);
 }
+
 .alert-warning {
   background-color: var(--alert-yellow);
 }
+
 .alert-error {
   background-color: var(--alert-red);
 }
 
 .alert-iframe {
-  width: 37.5rem;
-  height: 31.25rem;
-}
-
-@media only screen and (max-width: 700px) {
-  .alert-iframe {
-    width: 18.75rem;
-    height: 12.5rem;
-  }
-  .alert {
-    width: 15rem;
-  }
+  height: 28rem;
 }

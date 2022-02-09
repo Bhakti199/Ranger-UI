@@ -10,7 +10,6 @@
   height: auto;
   width: 20rem;
   padding: 1rem;
-  display: flex;
   align-items: center;
 }
 .notify-content {
@@ -24,19 +23,7 @@
   font-size: 1.25rem;
 }
 /* iframe */
-iframe {
-  width: 37rem;
-}
+
 .notify-iframe {
   height: 16rem;
-}
-@media only screen and (max-width: 800px) {
-  .notify-iframe {
-    width: 27rem;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .notify-iframe {
-    width: 24rem;
-  }
 }

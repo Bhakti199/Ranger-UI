@@ -1,15 +1,8 @@
 @import url(/style.css);
 
-.avatar-intro {
-  font-size: 1.25rem;
-  padding: 1rem 0;
-}
-
 .avatar-container {
-  display: flex;
   align-items: center;
   gap: 1rem;
-  flex-wrap: wrap;
   margin-bottom: 2rem;
 }
 
@@ -20,36 +13,29 @@
   border-radius: 100%;
   border: 1px solid var(--dark-black);
 }
+
 .avatar-img-sm,
 .icon-avatar-sm {
   height: 2rem;
   width: 2rem;
 }
+
 .avatar-img-md {
   height: 3.5rem;
   width: 3.5rem;
 }
+
 .avatar-img-lg {
   height: 5rem;
   width: 5rem;
 }
+
 .avatar-img-x-lg {
   height: 7rem;
   width: 7rem;
 }
 
-iframe {
-  width: 37rem;
-}
+/* iframe */
 .avatar-image-iframe {
   height: 23rem;
-}
-@media only screen and (max-width: 700px) {
-  .avatar-image-iframe {
-    width: 18.75rem;
-    height: 12.5rem;
-  }
-  .avatar-image-iframe {
-    width: 15rem;
-  }
 }

@@ -24,24 +24,10 @@
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 }
 /* iframe */
-iframe {
-  width: 37rem;
-}
+
 .grid-2-iframe {
   height: 25rem;
 }
 .grid-iframe {
   height: 32rem;
-}
-@media only screen and (max-width: 800px) {
-  .grid-2-iframe,
-  .grid-iframe {
-    width: 27rem;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .grid-2-iframe,
-  .grid-iframe {
-    width: 24rem;
-  }
 }
