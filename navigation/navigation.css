@@ -30,6 +30,7 @@
 }
 .nav-standard {
   align-items: center;
+  background-color: var(--white-color);
   height: 4rem;
   box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.1);
 }
