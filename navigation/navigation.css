@@ -26,7 +26,7 @@
   color: var(--dark-black);
 }
 .nav-standard-list-item:hover {
-  background-color: var(--lightest-blue);
+  background-color: var(--off-white);
 }
 .nav-standard {
   align-items: center;
@@ -35,13 +35,13 @@
   box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.1);
 }
 .navbar-name {
-  font-size: 1.6rem;
+  font-size: 2.1rem;
   color: var(--medium-blue);
 }
 .nav-standard-item-sectionOne,
 .nav-standard-item-sectionTwo {
   align-items: center;
-  gap: 1.25rem;
+  gap: 1rem;
 }
 .nav-standard-item-sectionOne {
   justify-content: flex-start;
