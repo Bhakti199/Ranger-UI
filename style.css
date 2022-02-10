@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url(/alert/alert.css);
+@import url(/avatar/avatar.css);
+@import url(/badge/badge.css);
+@import url(/button/button.css);
+@import url(/card/card.css);
+@import url(/image/image.css);
+@import url(/input/input.css);
+@import url(/list/list.css);
+@import url(/modal/modal.css);
+@import url(/navigation/navigation.css);
+@import url(/notify/notify.css);
+@import url(/rating/rating.css);
+@import url(/simplified-grid/simplified-grid.css);
+@import url(/text-utilities/text-utilities.css);
 
 :root {
   --dark-black: #292524;
