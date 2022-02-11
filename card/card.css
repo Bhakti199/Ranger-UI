@@ -9,6 +9,11 @@
   gap: 2rem;
   margin-bottom: 2rem;
 }
+.product-card-img {
+  width: 16rem;
+  height: 18.875rem;
+  object-fit: cover;
+}
 .vertical-card,
 .text-overlay-card {
   position: relative;
@@ -61,8 +66,7 @@
 .horizontal-card-content {
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  margin-top: 5px;
+  padding: 0 10px;
   margin-bottom: 5px;
 }
 .vertical-card-content,
@@ -77,6 +81,7 @@
 .text-ovrlay-card-content-item {
   font-size: 1.25rem;
 }
+
 .vertical-card-content-two {
   color: var(--darker-grey);
 }
