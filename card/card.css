@@ -34,14 +34,14 @@
   right: 1rem;
   border-radius: 50%;
   color: var(--darker-grey);
-  background-color: var(--off-white);
+  background-color: var(--white-color);
 }
 .wishlist-btn-active {
   top: 1rem;
   right: 1rem;
   border-radius: 50%;
   color: var(--medium-red);
-  background-color: var(--off-white);
+  background-color: var(--white-color);
 }
 .cross-btn {
   top: 7px;
