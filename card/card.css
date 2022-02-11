@@ -14,7 +14,7 @@
   position: relative;
   box-sizing: border-box;
   border-radius: 2px;
-  background-color: var(--off-white);
+  background-color: var(--white-color);
   max-width: 17rem;
   height: auto;
   padding: 7px;
