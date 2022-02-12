@@ -8,11 +8,13 @@
 .vertical-card-container {
   gap: 2rem;
   margin-bottom: 2rem;
+  border-radius: 4px;
 }
 .product-card-img {
   width: 16rem;
   height: 18.875rem;
   object-fit: cover;
+  border-radius: 4px;
 }
 .vertical-card,
 .text-overlay-card {
@@ -107,7 +109,7 @@
   height: auto;
   display: flex;
   padding: 7px;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 .horizontal-card-image {
   max-width: 17rem;
@@ -138,6 +140,7 @@
 /*text-card  */
 .text-card {
   background-color: var(--off-white);
+  border-radius: 4px;
 }
 
 .text-card-section-one {
