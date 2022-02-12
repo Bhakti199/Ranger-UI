@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/button/button.css" />
+    <link rel="stylesheet" href="/modal/modal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>RangerUI | docs</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <span class="navbar-heading"
+        ><a href="/index.html" class="ranger-ui ranger-ui-name"
+          >RangerUI</a
+        ></span
+      >
+      <section class="navbar-social-links">
+        <button class="navbar-btn">
+          <a
+            href="https://github.com/Bhakti199"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="navbar-btn-link"
+            ><i class="fab fa-github"></i
+          ></a>
+        </button>
+        <button class="navbar-btn">
+          <a
+            href="https://twitter.com/Bhaktee_"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="navbar-btn-link"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </button>
+        <button class="navbar-btn">
+          <a
+            href="https://www.linkedin.com/in/bhakti-kharatkar-33178a200/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="navbar-btn-link"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </button>
+      </section>
+    </nav>
+
+    <ul class="sidebar" id="sidebarMenu">
+      <li class="sidebar-list-item">
+        <a href="../documentation.html" class="sidebar-link">Installation</a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/avatar/avatar.html" class="sidebar-link"> Avatar </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/alert/alert.html" class="sidebar-link"> Alert </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/badge/badge.html" class="sidebar-link"> Badge </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/button/button.html" class="sidebar-link"> Button </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/card/card.html" class="sidebar-link"> Card </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/image/image.html" class="sidebar-link"> Image </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/input/input.html" class="sidebar-link"> Input </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/rating/rating.html" class="sidebar-link"> Rating </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/modal/modal.html" class="sidebar-link"> Modal </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/notify/notify.html" class="sidebar-link"> Notify </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/list/list.html" class="sidebar-link"> List </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/navigation/navigation.html" class="sidebar-link">
+          Navigation
+        </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/text-utilities/text-utilities.html" class="sidebar-link">
+          Text Utilities
+        </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/simplified-grid/simplified-grid.html" class="sidebar-link">
+          Simplified Grid
+        </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="/form/form.html" class="sidebar-link"> Form </a>
+      </li>
+    </ul>
+
+    <div class="main-content flex-col">
+      <h1 class="component-name">Form</h1>
+      <hr class="line-separate" />
+      <p class="component-intro">
+        form is used to collect data from user for authentication purpose.
+      </p>
+
+      <h2 class="sub-component-name">Login Form</h2>
+      <div class="login-form flex-col-center">
+        <h1 class="margin-top-bottom-zero form-title">Login</h1>
+        <div class="flex-col-center form-input-wrapper">
+          <input
+            type="text"
+            placeholder="Enter Mobile number / Email"
+            class="form-input"
+          />
+          <input
+            type="password"
+            placeholder="Enter Password"
+            class="form-input"
+          />
+        </div>
+        <p class="privacy-notice flex">
+          <input type="checkbox" />
+          By continuing, I agree to the terms of use & Privacy Policy.
+        </p>
+        <button class="primary-btn-lg">Login</button>
+        <p>
+          <a href="#" class="sign-up-msg"
+            >New to <span class="ranger-ui ranger-name">RangerShoe</span> ,
+            Create an account
+          </a>
+          <i class="fa-solid fa-angle-right"></i>
+        </p>
+      </div>
+      <iframe
+        src="https://www.thiscodeworks.com/embed/62074a5c3d90130015398bdb"
+        class="login-iframe"
+        frameborder="0"
+      ></iframe>
+      <hr class="line-separate" />
+
+      <h2 class="sub-component-name">Sign Up form</h2>
+      <div class="sign-up-form flex-col-center">
+        <h1 class="margin-top-bottom-zero form-title">Sign Up</h1>
+        <div class="flex-col-center form-input-wrapper">
+          <input type="text" placeholder="Enter Name" class="form-input" />
+          <input
+            type="number"
+            placeholder="Enter Mobile number"
+            class="form-input"
+          />
+          <input type="text" placeholder="name@gmail.com" class="form-input" />
+          <input
+            type="password"
+            placeholder="Enter Password"
+            class="form-input"
+          />
+        </div>
+        <p class="privacy-notice flex">
+          <input type="checkbox" />
+          By continuing, I agree to the terms of use & Privacy Policy.
+        </p>
+        <button class="primary-btn-lg">Sign up</button>
+        <p>
+          <a href="#" class="sign-up-msg"
+            ><i class="fa-solid fa-angle-left"></i> Already an user, Login to
+            <span class="ranger-ui ranger-name">RangerShoe</span>
+          </a>
+        </p>
+      </div>
+
+      <iframe
+        src="https://www.thiscodeworks.com/embed/62074b043d90130015398bde"
+        class="signup-iframe"
+        frameborder="0"
+      ></iframe>
+      <hr class="line-separate" />
+    </div>
+  </body>
+</html>

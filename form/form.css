@@ -1,0 +1,54 @@
+@import url(/style.css);
+@import url(/button/button.css);
+
+.login-form,
+.sign-up-form {
+  padding: 2rem;
+  border: 1px solid var(--light-grey);
+  width: 22rem;
+  gap: 1.5rem;
+  border-radius: 4px;
+  background-color: var(--white-color);
+}
+.login-form {
+  height: 25rem;
+}
+.sign-up-form {
+  height: 31rem;
+}
+.form-title {
+  color: var(--darkest-grey);
+}
+.form-input {
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-bottom: 2px solid var(--medium-blue);
+  background-color: var(--white-color);
+}
+.form-input-wrapper {
+  gap: 1rem;
+}
+.privacy-notice {
+  text-align: justify;
+  margin: 0 1rem;
+  font-size: 0.8rem;
+}
+.ranger-name {
+  color: var(--medium-blue);
+}
+.sign-up-msg {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--dark-black);
+}
+
+/* iframe */
+
+.login-iframe,
+.signup-iframe {
+  height: 17rem;
+  margin: 2rem 0;
+}
