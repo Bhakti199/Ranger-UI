@@ -14,6 +14,7 @@
 @import url(/rating/rating.css);
 @import url(/simplified-grid/simplified-grid.css);
 @import url(/text-utilities/text-utilities.css);
+@import url(/form/form.css);
 
 :root {
   --dark-black: #292524;
@@ -51,6 +52,7 @@ body {
 /* utility classes */
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .margin-top-bottom-zero {
@@ -115,6 +117,10 @@ a {
 .sub-component-name {
   color: var(--darker-grey);
 }
+button {
+  cursor: pointer;
+}
+
 /* iframe */
 
 iframe {
