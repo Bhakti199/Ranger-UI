@@ -121,24 +121,6 @@ button {
   cursor: pointer;
 }
 
-/* iframe */
-
-iframe {
-  width: 37rem;
-}
-
-@media only screen and (max-width: 800px) {
-  iframe {
-    width: 27rem;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  iframe {
-    width: 24rem;
-  }
-}
-
 /* navbar   */
 
 .navbar {
@@ -229,11 +211,8 @@ iframe {
 /****** main content   *******/
 
 .main-content {
-  /* margin-top: 4rem; */
-  /* margin-left: 15.5rem; */
   margin: 4rem 0 0 15.5rem;
   height: 100%;
-
   align-items: center;
   padding: 1rem;
 }
@@ -244,6 +223,14 @@ iframe {
   color: var(--darkest-grey);
   width: 100%;
 }
+
+/* iframe */
+
+iframe {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 500px) {
