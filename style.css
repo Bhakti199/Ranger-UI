@@ -229,9 +229,11 @@ iframe {
 /****** main content   *******/
 
 .main-content {
-  margin-top: 4rem;
-  margin-left: 15.5rem;
+  /* margin-top: 4rem; */
+  /* margin-left: 15.5rem; */
+  margin: 4rem 0 0 15.5rem;
   height: 100%;
+
   align-items: center;
   padding: 1rem;
 }
@@ -241,4 +243,11 @@ iframe {
   margin: 0;
   color: var(--darkest-grey);
   width: 100%;
+}
+/* media queries */
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 62.5%;
+  }
 }
