@@ -52,3 +52,9 @@
   height: 17rem;
   margin: 2rem 0;
 }
+
+@media only screen and (max-width: 500px) {
+  .sign-up-form {
+    height: 39rem;
+  }
+}
