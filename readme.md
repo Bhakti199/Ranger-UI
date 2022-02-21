@@ -22,3 +22,5 @@ Get started with development using RangerUI components. Happy coding!
 14. [Rating](https://ranger-ui.netlify.app/rating/rating.html)
 15. [Simplified Grid](https://ranger-ui.netlify.app/simplified-grid/simplified-grid.html)
 16. [Text utilties](https://ranger-ui.netlify.app/text-utilities/text-utilities.html)
+
+![Animation](/gif/Animation.gif)
