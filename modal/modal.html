@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://res.cloudinary.com/bhakti1801/image/upload/v1649919109/R_ezqx3h.png"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
@@ -121,16 +125,17 @@
         with the application, but without moving to a new page or interrupting
         the workflow
       </p>
-      <div class="modal-container">
+      <div class="modal-container close">
         <div class="modal">
           <h3 class="modal-title">Modal Title</h3>
           <p class="modal-content">Modal content</p>
           <div class="modal-button flex">
-            <button class="primary-btn-sm">Accept</button>
-            <button class="secondary-btn-sm">Cancel</button>
+            <button class="primary-btn-sm accept">Accept</button>
+            <button class="secondary-btn-sm cancel">Cancel</button>
           </div>
         </div>
       </div>
+      <button class="open-modal">Open Modal</button>
       <iframe
         src="https://www.thiscodeworks.com/embed/6200b7434dd44f0015f3cd44"
         frameborder="0"
@@ -138,5 +143,6 @@
       ></iframe>
       <hr class="line-separate" />
     </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
