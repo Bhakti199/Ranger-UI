@@ -183,7 +183,7 @@ button {
   position: fixed;
   top: 4rem;
   left: 0;
-  bottom: 0;
+  /* bottom: 0; */
   width: 15.5rem;
   height: 100%;
   border-right: 1px solid var(--dark-black);
@@ -233,8 +233,34 @@ iframe {
 
 /* media queries */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   html {
     font-size: 62.5%;
+  }
+  .sidebar {
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: 100vw;
+    height: auto;
+    border-bottom: 1px solid var(--dark-black);
+    background-color: var(--white-color);
+    padding: 2rem 1rem;
+    /* margin: 0; */
+  }
+  .sidebar-list-item {
+    width: 7.3rem;
+    list-style-type: none;
+    padding: 0.6rem 0;
+    margin: 0 10px;
+  }
+  .main-content {
+    margin: 17rem 0 0 0;
+    height: 100%;
+    align-items: center;
+    padding: 1rem;
   }
 }
